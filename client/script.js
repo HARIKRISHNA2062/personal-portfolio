@@ -12,7 +12,7 @@ contactForm.addEventListener("submit", async (e) => {
 
     try {
         console.log("Sending data:", data);
-        const response = await fetch("http://localhost:5000/api/contact", {
+        const response = awaitfetch("https://personal-portfolio-zln6.onrender.com/api/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
