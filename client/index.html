@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <header class="hero">
+    <header class="hero" id="home">
 
     <nav>
         <h2 class="logo">HARIKRISHNA D</h2>
 
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -34,12 +34,12 @@
             Passionate about building modern websites and continuously learning new technologies.
         </p>
 
-        <button>View My Work</button>
+        <a href="#projects" class="btn">View My Work</a>
 
     </div>
 
 </header>
-<section class="about">
+<section class="about" id="about">
 
     <div class="about-image">
         <img src="images/profile.jpg" alt="Profile Photo">
@@ -77,7 +77,21 @@
     </div>
 
 </section>
-<section class="projects">
+<section class="skills" id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">Node.js</div>
+        <div class="skill-box">Express.js</div>
+        <div class="skill-box">MongoDB</div>
+    </div>
+
+</section>
+<section class="projects" id>
 
     <h2>Project</h2>
 
@@ -93,7 +107,7 @@
     </div>
 
 </section>
-<section class="contact">
+<section class="contact" id>
     <h2>Contact Me</h2>
 
     <form id="contactForm">
