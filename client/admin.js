@@ -1,6 +1,6 @@
 async function loadMessages() {
     try {
-        const response = await fetch("http://localhost:5000/api/messages");
+        const response = await fetch("https://personal-portfolio-zln6.onrender.com/api/messages");
         const messages = await response.json();
 
         const table = document.getElementById("messageTable");
